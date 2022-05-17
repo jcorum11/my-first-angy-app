@@ -1,11 +1,12 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 import {ServerComponent} from './server/server.component';
-import { ServersComponent } from './servers/servers.component';
-import { WarningMessageComponent } from './warning-message/warning-message.component';
-import { SuccessMessageComponent } from './success-message/success-message.component';
+import {ServersComponent} from './servers/servers.component';
+import {WarningMessageComponent} from './warning-message/warning-message.component';
+import {SuccessMessageComponent} from './success-message/success-message.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,9 +18,11 @@ import { SuccessMessageComponent } from './success-message/success-message.compo
   ],
   // add other modules to this module to keep things lean.
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
