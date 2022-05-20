@@ -7,6 +7,7 @@ import {ServersComponent} from './servers/servers.component';
 import {WarningMessageComponent} from './warning-message/warning-message.component';
 import {SuccessMessageComponent} from './success-message/success-message.component';
 import {FormsModule} from '@angular/forms';
+import { AssignmentThreeComponent } from './assignment-three/assignment-three.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {FormsModule} from '@angular/forms';
     ServerComponent,
     ServersComponent,
     WarningMessageComponent,
-    SuccessMessageComponent
+    SuccessMessageComponent,
+    AssignmentThreeComponent
   ],
   // add other modules to this module to keep things lean.
   imports: [
