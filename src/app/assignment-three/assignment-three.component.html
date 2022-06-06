@@ -1,4 +1,0 @@
-<button class="btn btn-primary" (click)="onClickDisplayDetails()">Display Details</button>
-<p [ngClass]="{hide: !displayDetails}">This is another bit of text that is threatening.</p>
-<div *ngFor="let log of logs; let i = index" [ngClass]="{'white-color': i > 4}"
-     [ngStyle]="{backgroundColor: i > 4 ? 'blue' : 'white'}">{{ log }}</div>
